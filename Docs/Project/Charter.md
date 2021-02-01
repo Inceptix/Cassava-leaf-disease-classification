@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-* What is the data science problem and what are we solving, why is it important?
+* What is the data science problem we are solving, why is it important?
 
 ## Scope
 * What data science solutions are we trying to build?
