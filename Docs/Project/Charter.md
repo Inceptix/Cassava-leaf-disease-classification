@@ -50,4 +50,10 @@
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
+	* Currently running a Discord server which enables us to talk to each other very quickly and set up meetings as needed.
+	* Discord chat functionality also allows us to chat about anything going on with the project at any time.
+	* Github commit messages are an easy way of checking what work was done to prevent overlapping.
+	* Jira task completions
 * Who are the contact persons on both sides?
+	* Project development contacts: Thuc Duong(tug98850@temple.edu), Dodge Hill(tuh33009@temple.edu), Jonathan Oberst(tug93898@temple.edu), Marinos Rrapaj(tuf61948@temple.edu)
+	* Shareholder contacts: Abha Belorkar, Sam Black
