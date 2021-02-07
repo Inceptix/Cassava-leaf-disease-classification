@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-* The cassava is a large starchy root that is commonly grown in tropical and subtropical climates. This large, cylindrical root grows beneath the ground and gathers nutrition from sunlight, captured by its large shrub like leaves that protrude.  Both the roots and leaves are not to be consumed raw, however once cooked, both parts of the plant become edible, and nutritious. The leaves provide protein to humans, and the stalks can even be dried into hay to be fed to livestock.
+The cassava is a large starchy root that is commonly grown in tropical and subtropical climates. This large, cylindrical root grows beneath the ground and gathers nutrition from sunlight, captured by its large shrub like leaves that protrude.  Both the roots and leaves are not to be consumed raw, however once cooked, both parts of the plant become edible, and nutritious. The leaves provide protein to humans, and the stalks can even be dried into hay to be fed to livestock.
 
 Largely grown in Africa, this crop is estimated to be grown in 80% of households farms and gardens in the Sub-Saharan area(Markerere University AI Lab Cassava Leaf Disease Classification).  Outside of Africa, cassava is also grown in a number of countries in Asia and Latin America such as, the Philippines, Cambodia, Indonesia, the Domican Republic, Venezuela, Guatemala, and many more.  With so much of the world growing the crop, it has risen to become one of the world's largest sources of carbohydrates, with over half of a billion people relying on it (Cassava (manioc) plantvillage.psu).
 
@@ -16,7 +16,7 @@ Thus the question we will be responding to is this, can we use computer vision t
 
 
 ## Scope
-* In this project we intend to ask the question, can we use computer vision to aid in early detection and classification of diseases in the Cassava leaves?
+In this project we intend to ask the question, can we use computer vision to aid in early detection and classification of diseases in the Cassava leaves?
 To answer this question, we must first understand the data set, and the nature of the problem.  As the data set contains a large amount of classified images, we will be working in a supervised learning situation.  This is good as it will allow us to create better metrics for measuring the effectiveness of our model.
 
 The data set also contains 5 categories, 4 different diseases and a healthy version. This means our question is in the form of a classification problem.  This gives us a few options to consider when trying to build an effective model.  Our base model will be based on flattening the data into vectors, and running it through a basic neural network.
