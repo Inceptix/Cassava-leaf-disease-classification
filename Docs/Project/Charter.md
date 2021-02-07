@@ -44,11 +44,82 @@ By the end of our project we hope to have a model that can produce accurate clas
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
 
 ## Plan
-* Phases (milestones), timeline, short description of what we'll do in each phase.
+### Things to keep in mind: 
+* Professor says to spend about 8 hours outside of class to work on the project.
+
+![alt text](https://drive.google.com/file/d/1b01DlanqMiA_VMTD2I1-tcmpvh2M8H1C/view?usp=sharing)
+
+### Phase 1:
+* Big goals:
+  * Exploring existing solutions to the problem 
+  * Data cleaning and processing 
+  * Evaluating performance of baseline model
+	
+* Project Charter due Feb 8th - this document
+* Project Demo due Feb 18th
+  * In this demo, we will demonstrate to the class our baseline model.
+  * However, we plan on getting a baseline model earlier (by Feb 12th) because the competition ends Feb 18th.
+  * The team should present the baseline version of their project that has been through at least one iteration of the complete data science project lifecycle (business understanding → data acquisition → modeling →  deployment → performance evaluation).
+  * More EDA, basic understanding of baseline models, accuracy, plan on improving the model, what did we not try in the model.
+  * Explore existing solutions to the problem (check out other notebooks on Kaggle)
+  * Have a firm understanding of image classification basics by checking out Sam’s getting started resources (https://cassavavirus.atlassian.net/browse/CAS-12?atlOrigin=eyJpIjoiNTA0ZGFkZDllMzEyNDg4ZDg1Njg1NmFhOGFiZWE3M2MiLCJwIjoiaiJ9)
+  * Data cleaning + processing (the imbalance of class needs to be resolved) -> Check out image augmentation. 
+  * Get together and evaluate the performance of all of our baseline models.
+  * Make a nice presentation with all of our findings + challenges + things to improve + plan for phase 2. 
+
+### Phase 2:
+* Big goals:
+  * Experimenting with feature engineering 
+  * Experimenting with alternative ML methods 
+  * Evaluating performance of new models
+* Bi-monthly Progress Report
+* Project Demo
+* Revise Project Charter
+
+### Phase 3: 
+* Big goals
+  * Improving over the Phase 2 model 
+  * Creating an interactive dashboard
+* Data Report
+* Model Report
+* Performance Report
+* Project Demo
+* Interactive Dashboard
+
+
 
 ## Architecture
 * Data
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
+    * Raw images of cassava leaves with labels taken from Kaggle
+    * Potentially pre-train the model on other image datasets such as ImageNet 
+
+  * EDA of the dataset: 
+    * In this competition, we have 5 classes: 4 diseases and 1 healthy.
+  
+  **Class 0: Cassava Bacterial Blight (CBB)**
+    * Small lesions on viens, spread to turn leaf brown, yellow ring around lesions
+	  * Treatment: prune infected parts if caught early, otherwise uproot and burn
+
+  **Class 1: Cassava Brown Streak Disease (CBSD)**
+	  * Brown streaks on leaves
+    * Treatment: detected early - harvest early, otherwise remove and destroy plant
+
+  **Class 2: Cassava Green Mottle (CGM)**
+	  * Yellow dots on the leaves
+	  * Treatment: uproot and destroy
+
+  **Class 3: Cassava Mosaic Disease (CMD)**
+	  * White/discoloration on leaves, smaller leaf size
+	  * Treatment: uproot them, don’t replant from the infected
+
+  **Class 4: Healthy**
+
+  **Label distribution of the data set:**
+
+
+
+
 * Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
   * all the data, 
   * after some pre-aggregation on-prem,
@@ -73,3 +144,13 @@ By the end of our project we hope to have a model that can produce accurate clas
 * Who are the contact persons on both sides?
 	* Project development contacts: Thuc Duong(tug98850@temple.edu), Dodge Hill(tuh33009@temple.edu), Jonathan Oberst(tug93898@temple.edu), Marinos Rrapaj(tuf61948@temple.edu)
 	* Shareholder contacts: Abha Belorkar, Sam Black
+
+## Work Cited
+“Cassava (Manioc).” Cassava (Manioc) | Diseases and Pests, Description, Uses, Propagation, plantvillage.psu.edu/topics/cassava-manioc/infos. 
+
+“Cassava Leaf Disease Classification.” Kaggle, 2020, www.kaggle.com/c/cassava-leaf-disease-classification. 
+
+“EXECUTIVE SUMMARY.” Global Cassava Market Study, www.fao.org/3/y5287e/y5287e04.htm. 
+
+Ihelon. “Cassava Leaf Disease - Exploratory Data Analysis.” Kaggle, Kaggle, 28 Nov. 2020, www.kaggle.com/ihelon/cassava-leaf-disease-exploratory-data-analysis. 
+
