@@ -47,7 +47,7 @@ By the end of our project we hope to have a model that can produce accurate clas
 ### Things to keep in mind: 
 * Professor says to spend about 8 hours outside of class to work on the project.
 
-![alt text](https://drive.google.com/file/d/1b01DlanqMiA_VMTD2I1-tcmpvh2M8H1C/view?usp=sharing)
+![alt text](<Images/Timeline.png>)
 
 ### Phase 1:
 * Big goals:
@@ -99,23 +99,29 @@ By the end of our project we hope to have a model that can produce accurate clas
   
   **Class 0: Cassava Bacterial Blight (CBB)**
     * Small lesions on viens, spread to turn leaf brown, yellow ring around lesions
-	  * Treatment: prune infected parts if caught early, otherwise uproot and burn
+      * Treatment: prune infected parts if caught early, otherwise uproot and burn
+    * ![alt text](<Images/Class_0.png>)
 
   **Class 1: Cassava Brown Streak Disease (CBSD)**
-	  * Brown streaks on leaves
-    * Treatment: detected early - harvest early, otherwise remove and destroy plant
+    * Brown streaks on leaves
+      * Treatment: detected early - harvest early, otherwise remove and destroy plant
+    * ![alt text](<Images/Class_1.png>)
 
   **Class 2: Cassava Green Mottle (CGM)**
-	  * Yellow dots on the leaves
-	  * Treatment: uproot and destroy
+    * Yellow dots on the leaves
+      * Treatment: uproot and destroy
+    * ![alt text](<Images/Class_2.png>)
 
   **Class 3: Cassava Mosaic Disease (CMD)**
-	  * White/discoloration on leaves, smaller leaf size
-	  * Treatment: uproot them, don’t replant from the infected
+    * White/discoloration on leaves, smaller leaf size
+      * Treatment: uproot them, don’t replant from the infected
+    * ![alt text](<Images/Class_3.png>)
 
   **Class 4: Healthy**
+    * ![alt text](<Images/Class_4.png>)
 
   **Label distribution of the data set:**
+    * ![alt text](<Images/Label_Distribution.png>)
 
 
 
