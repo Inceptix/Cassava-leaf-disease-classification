@@ -132,14 +132,15 @@ By the end of our project we hope to have a model that can produce accurate clas
   * Sampled data enough for modeling 
 
 * What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
+  * Python for feature construction, aggregation and sampling
+  * Keras, TensorFlow for modeling and web service operationalization
+
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
   * How will the customer use the model results to make decisions
+    * The “customer”, farmers of cassava, will use the model to quickly predict which plants may be sick in order to save more crops
   * Data movement pipeline in production
-  * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
+    * “Customer” can upload images of their leaves and our model will predict what if the leaf is healthy or diseased, and if diseased, what disease it has
+
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
