@@ -39,8 +39,8 @@ By the end of our project we hope to have a model that can produce accurate clas
 ## Metrics
 * What are the qualitative objectives?
 	* Help farmers save crops by classifying images of cassava plants as healthy or diseased
-	* We would also like our team to place in the silver ranking on Kaggle
- What is a quantifiable metric?
+ * What is a quantifiable metric?
+ 	* We would like our team to place in the silver ranking on the Kaggle Competition
 	* Check the accuracy of our model at predicting if a leaf is healthy or not
 	* Check the accuracy of predicting the correct disease if the model predicts a leaf does have a disease
 * What is the baseline (current) value of the metric? 
