@@ -37,11 +37,20 @@ By the end of our project we hope to have a model that can produce accurate clas
 	* Thuc Duong
 	
 ## Metrics
-* What are the qualitative objectives? (e.g. reduce user churn)
-* What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
-* What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
-* How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+* What are the qualitative objectives?
+	* Help farmers save crops by classifying images of cassava plants as healthy or diseased
+	* We would also like our team to place in the silver ranking on Kaggle
+ What is a quantifiable metric?
+	* Check the accuracy of our model at predicting if a leaf is healthy or not
+	* Check the accuracy of predicting the correct disease if the model predicts a leaf does have a disease
+* What is the baseline (current) value of the metric? 
+	* The current top score aboard the leaderboard predicts correctly with a score of 0.911
+* How will we measure the metric? 
+	* Loss
+	* Categorical accuracy
+	* Precision recall
+	* Confusion matrices
+
 
 ## Plan
 ### Things to keep in mind: 
