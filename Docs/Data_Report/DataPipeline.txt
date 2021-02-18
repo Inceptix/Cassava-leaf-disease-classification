@@ -2,4 +2,4 @@
 
 The data is obtained via a static dateset extracted from the host of the competitions servers, Kaggle.com.
 
-![Image of cloud]https://helpdeskgeek.com/wp-content/pictures/2019/04/cloud-save.png.webp)
+![Image of cloud](https://helpdeskgeek.com/wp-content/pictures/2019/04/cloud-save.png.webp)
