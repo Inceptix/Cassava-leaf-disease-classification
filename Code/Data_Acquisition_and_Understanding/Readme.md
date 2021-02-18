@@ -1,3 +1,3 @@
 # This folder hosts code for data acquisition and understanding (exploratory analysis)
 
-You can add detailed description in this markdown related to your specific data science project.
+This folder contains 2 notebooks. One is for EDA on the competition dataset and the second is for explaining how do TFRecords work.

@@ -1,3 +1,3 @@
 # This folder contains code for model deployment
 
-You can add detailed description in this markdown related to your specific data science project.
+Will add more description here once we have a model for deployment but right now it is still in development.
