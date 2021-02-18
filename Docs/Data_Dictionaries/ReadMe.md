@@ -1,17 +1,22 @@
 # Data Dictionaries
-_Place to put data description documents, typically received from a client_
-This is typically a field-level description of data files received.
+The data represents cassava leave images. Each leaf is either healthy or infected with one of several diseases that cause material harm to the food supply of many African countries.
 
-This document provides the descriptions of the data that is provided by the client. If the client is providing data dictionaries in text (in emails or text files), directly copy them here, or have a snapshot of the text, and add it here as an image. If the client is providing data dictionaries in Excel worksheets, directly put the Excel files in this directory, and add a link to this Excel file.
+## <Files\>
 
-If the client is providing you the data from a database-like data management system, you can also copy and paste the data schema (snapshot) here. If necessary, please also provide brief description of each column after the snapshot image, if such image does not have such information. 
+[train/test]\_images the image files. The full set of test images will only be available to your notebook when it is submitted for scoring. Expect to see roughly 15,000 images in the test set.
 
-## <Dataset 1 name (from database)\>
+**train.csv
 
-_Example image of data schema when data is from a sql server_
+image_id the image file name.
 
-![](data-dictionary-from-sql-table.PNG)
+label the ID code for the disease.
 
-## <Dataset 2 name (dictionary in Excel file)\>
+**sample_submission.csv** A properly formatted sample submission, given the disclosed test set content.
 
-[dataset 2 with dictionary in Excel](./Raw-Data-Dictionary.csv)
+image_id the image file name.
+
+label the predicted ID code for the disease.
+
+[train/test]\_tfrecords the image files in tfrecord format.
+
+label_num_to_disease_map.json The mapping between each disease code and the real disease name.
