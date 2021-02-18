@@ -128,6 +128,9 @@ In this competition, we have 5 classes: 4 diseases and 1 healthy.
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
     * Raw images of cassava leaves with labels taken from Kaggle
     * Potentially pre-train the model on other image datasets such as ImageNet 
+    * The 20,000 images are encoded as TFRecords so we need to decode these TFRecords into images that we can then feed into the model
+    for usage.
+    * The data can be accessed from Google Cloud Buckets. 
 
 
 
