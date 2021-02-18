@@ -1,11 +1,11 @@
-# Data Dictionaries
+### Data Dictionaries
 The data represents cassava leave images. Each leaf is either healthy or infected with one of several diseases that cause material harm to the food supply of many African countries.
 
-## <Files\>
+## Files
 
 [train/test]\_images the image files. The full set of test images will only be available to your notebook when it is submitted for scoring. Expect to see roughly 15,000 images in the test set.
 
-**train.csv
+**train.csv**
 
 image_id the image file name.
 
