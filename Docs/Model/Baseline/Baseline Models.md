@@ -7,25 +7,37 @@ When applicable, the Automated Modeling and Reporting utility developed by TDSP 
 > If using the Automated Modeling and Reporting tool, most of the sections below will be generated automatically from this tool. 
 
 ## Analytic Approach
-* What is target definition
-* What are inputs (description)
+* What is target definition?
+	* 1 healthy as Label 4
+	* 4 different diseases:
+		* Cassava Bacterial Blight as Label 0
+		* Cassava Brown Streak Disease as Label 1
+		* Cassava Green Mottle as Label 2
+		* Cassava Mosaic Disease as Label 3
+
+* What are inputs (description)?
+	+ TFRecords of 20,000 images with labels of 0,1,2,3,4.
 * What kind of model was built?
+	+ A CNN with a pre-trained model called RESNET-50 was built on top of it.
 
 ## Model Description
 
 * Models and Parameters
+	+ RESENET-50 as our pre-trained baseline model before we add a few layer to it.
+
 
 	* Description or images of data flow graph
-  		* if AzureML, link to:
-    		* Training experiment
-    		* Scoring workflow
+		* All TFrecord files -> load_dataset -> read_tfrecord -> decode_image -> get the actual image and its label -> Feed it into the base model.
 	* What learner(s) were used?
 	* Learner hyper-parameters
+		* We use SparseCategoricalCrossentropy as a loss metric when compiling the function because there are two or more label classes and the labels are provided as integers.
+		* We use the standard Adam optimizer for Keras learning scheduler with some default parameters for the learning rate. 
 
 
 ## Results (Model Performance)
-* ROC/Lift charts, AUC, R^2, MAPE as appropriate
-* Performance graphs for parameters sweeps if applicable
+* Confusion Matrix
+
+* Distribution Matrix
 
 ## Model Understanding
 
