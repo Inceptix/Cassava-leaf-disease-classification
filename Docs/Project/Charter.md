@@ -160,6 +160,37 @@ In this competition, we have 5 classes: 4 diseases and 1 healthy.
 	* Project development contacts: Thuc Duong(tug98850@temple.edu), Dodge Hill(tuh33009@temple.edu), Jonathan Oberst(tug93898@temple.edu), Marinos Rrapaj(tuf61948@temple.edu)
 	* Shareholder contacts: Abha Belorkar, Sam Black
 
+## Ethics Checklist
+* Have we listed how this technology can be attacked or abused?
+  * As the model will not really be used in any form of “production run” we do not have to worry too much about attacks.  However, some images may include people, which could lead to unwanted identification of people if the data was somehow intercepted.
+* Have we tested our training data to ensure it is fair and representative?
+  * All data comes from one region in Africa, and therefore farmers growing the Cassava outside of that area may feel underrepresented, and they may even experience disease our machine does not detect.
+* Have we studied and understood possible sources of bias in our data?
+  * The data has been crowd sourced from farmers willing to take pictures of their plants and share them with the researchers. If there is any bias, it might be naturally occurring because a certain disease might be more prevalent than the other ones. Also the nature of the disease might cause bias if it is used as an umbrella term. The last form of bias might come in the form of documentation error of the actual provided dataset.
+* Does our team reflect diversity of opinions, backgrounds, and kinds of thought?
+  * Our team is diverse in terms of backgrounds and experiences. The diversity can be increased if this project is larger in scope. The team can benefit from having a plant biologist or other domain experts in leaf diseases to help spot wrongly-classified data from the training dataset. We can benefit more by having people that are from other levels of education since all of us are undergraduate seniors.
+* What kind of user consent do we need to collect to use the data?
+	* We do not need to ask for user consent as the data was provided to us. 
+  * If the data was not provided to us, we need to ask the farmers or plant owners for permission to photograph their plants or leaves.
+* Do we have a mechanism for gathering consent from users?
+  * The data has been provided willingly and as far as we are aware there are no privacy issues since the images do not identify a specific and it is also not able to be used that way either. There is no present issue of consent.
+* Have we explained clearly what users are consenting to?
+  * We do not have plans for users to be able to implement our model. 
+* Do we have a mechanism for redress if people are harmed by the results?
+  * This is not applicable since our data is not related to humans.
+* Can we shut down this software in production if it is behaving badly?
+	* We have the authority to take down our model if for any reason it starts to behave badly. 
+* Have we tested for fairness with respect to different user groups?
+  * This is not applicable to us since the model that we are working on is about leaves and has nothing to do with people.
+* Have we tested for disparate error rates among different user groups?
+  * This is not applicable to us since the model that we are working on is about leaves and has nothing to do with people.
+  * Some other regions growing the same crop may experience diseases that our model does not detect.
+* Do we test and monitor for model drift to ensure our software remains fair over time?
+  * We have been closely monitoring the changes in our model with each iteration to make sure that the software remains fair throughout the development process. 
+* Do we have a plan to protect and secure user data?
+  * We will not be working with user data of any kind. The data we are working with was all sourced from Kaggle.
+
+
 ## Work Cited
 [1] “Cassava (Manioc).” Cassava (Manioc) | Diseases and Pests, Description, Uses, Propagation, plantvillage.psu.edu/topics/cassava-manioc/infos. 
 
