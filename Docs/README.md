@@ -2,7 +2,7 @@
 
 Documents will contain information about the following 
 
-1. System architecture
+1. System architecture (which is under the Project folder)
 2. Data dictionaries
 3. Reports related to data understanding, modeling
 4. Project management and planning docs
