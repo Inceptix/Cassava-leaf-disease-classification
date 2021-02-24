@@ -50,7 +50,7 @@ When applicable, the Automated Modeling and Reporting utility developed by TDSP 
 ## Conclusion and Discussions for Next Steps
 
 * Conclusion on Feasibility Assessment of the Machine Learning Task
-	* Our problem seems to have been attacked with relative ease by others in the field, but our model stills needs a lot fo work.  As it stands right now, the next steps will prove to answer the feasibilty of this problem.  Right now, without some form of attention mechanism, or anotehr form of data augmentation, I do not see the model performing much better. 
+	* Our problem seems to have been attacked with relative ease by others in the field, but our model stills needs a lot fo work.  As it stands right now, the next steps will prove to answer the feasibilty of this problem.  Right now, without some form of attention mechanism, or another form of data augmentation, I do not see the model performing much better. 
 
 * What other Relevant Data Sources Are Available to Help the Modeling
-	* Sources we are using include a lot of otehr Kaggle posts, as many users have successful models using techniques we have yet to implement.
+	* Sources we are using include a lot of other Kaggle posts, as many users have successful models using techniques we have yet to implement.
