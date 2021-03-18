@@ -107,7 +107,10 @@ In this competition, we have 5 classes: 4 diseases and 1 healthy.
   * Experimenting with feature engineering 
   * Experimenting with alternative ML methods 
   * Evaluating performance of new models
-* Bi-monthly Progress Report
+  * Making changes to our data preparation pipeline.
+  * Integrating attention mechanism to our models.
+  * Denoising the training dataset by removing images with high likelihood of having faulty labels.
+* Bi-monthly Progress Report I & II.
 * Project Demo
 * Revise Project Charter
 
