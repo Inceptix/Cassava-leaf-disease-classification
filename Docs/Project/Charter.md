@@ -114,6 +114,9 @@ In this competition, we have 5 classes: 4 diseases and 1 healthy.
 ### Phase 3: 
 * Big goals
   * Improving over the Phase 2 model 
+  	* Merge attention mechanisms
+  	* Add Denoising methods
+  	* Improve model speed (Temple HPC)
   * Creating an interactive dashboard
 * Data Report
 * Model Report
