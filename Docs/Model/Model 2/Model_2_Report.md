@@ -55,8 +55,13 @@ At this point we had a model that was functioning very well, and was posting ver
     * Then, for each fold, we find the corresponding model’s weights, perform some augmentation (called TTA or Test Time Augmentation) to the corresponding validation set to gain better generalization, and fit the model on that validation set.
     * During TTA, we will duplicate the original image and perform augmentation. Then, we get the model to aggregate predictions across those images, leading to better generalization (refer to figure below).
 
+    ![alt text](</Docs/Project/Images/Model_2_Report_Images/tta_explanation.png>)
+
     * Our TTA and aggregation techniques produce the predicted label value to be >1 when we implement TTA twice. This pushes the max label value (100% confidence) to 2. If you implement 3x TTA, it will be 3 and so on. Also, this is a percentage estimated as a float. 
     * For each fold, after we make the predictions from the test-time augmented validation set to retrieve the following dataframe.
+
+    ![alt text](</Docs/Project/Images/Model_2_Report_Images/output_dataframe.png>)
+
 
     * We then find the mis-predicted images (label != pred) with high confidence level (can be extracted from the value column from the above dataframe) that is above a certain threshold value. We remove the images. 
 
