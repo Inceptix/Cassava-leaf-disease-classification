@@ -31,22 +31,22 @@ In this competition, we have 5 classes: 4 diseases and 1 healthy.
 **Class 0: Cassava Bacterial Blight (CBB)**
   * Small lesions on viens, spread to turn leaf brown, yellow ring around lesions
     * Treatment: prune infected parts if caught early, otherwise uproot and burn
-  * ![alt text](<Images/Class_0.png>)
+  * ![alt text](</Docs/Project/Images/Class_0.png>)
 
 **Class 1: Cassava Brown Streak Disease (CBSD)**
   * Brown streaks on leaves
     * Treatment: detected early - harvest early, otherwise remove and destroy plant
-  * ![alt text](<Images/Class_1.png>)
+  * ![alt text](</Docs/Project/Images/Class_1.png>)
 
 **Class 2: Cassava Green Mottle (CGM)**
   * Yellow dots on the leaves
     * Treatment: uproot and destroy
-  * ![alt text](<Images/Class_2.png>)
+  * ![alt text](</Docs/Project/Images/Class_2.png>)
 
 **Class 3: Cassava Mosaic Disease (CMD)**
   * White/discoloration on leaves, smaller leaf size
     * Treatment: uproot them, don’t replant from the infected
-  * ![alt text](<Images/Class_3.png>)
+  * ![alt text](</Docs/Project/Images/Class_3.png>)
 
 **Class 4: Healthy**
-  * ![alt text](<Images/Class_4.png>)
+  * ![alt text](</Docs/Project/Images/Class_4.png>)
