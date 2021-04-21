@@ -5,7 +5,9 @@ The data represents cassava leave images. Each leaf is either healthy or infecte
 
 **[train/test]\_images** - the image files. In .jpg format.
 
-![Cassava Images](https://www.kaggleusercontent.com/kf/48038133/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..q2Htz1rRGtBSHppj4EZN-Q.TJNNookByHOKLkyhX3HgYdF8tCNkisBeOuvUOwsEm9tXpOv85bovYy4s3o2f0cqvKymtdtCrnn7f7IDqogL9UKGTn6Zkl1zIupJqvijyH6zjVghTU6YDq-4OBFt3CXdHn3rccOJoQD59eEQd3Yxo_FGZJlnqXwtFqcWgCUg7FC3-sMbiFjMMslV8qsy7FmUhksXzhWpaqsvCumwuB6Nwu2YepCclGcjYqMpAgHLM3TKh-33yUcpz3qLVaLHBfamNpp8S1gZN9CEiroiH_QUCG-LkdJqWhJrmVNnVu_YMiVBdyOQwpkMt1OTgWgh5yudy7EVpSYsTTrqFrL7CyH66rVi-GPhBtLKwBsM4IAOJa2h_mH1rmuWRo-BHPeztAmuDO2tTrkVP7Z-y_QxgPkvjJkscZ7yDofaNBmhjX-HgvR9sIxLba9GeldVzEiuvk0DO0RErSMuL2f6pTtaSbbJxB53FpFDFlkvWm5P6mP8v2BNjUa7U2s9-DXvqmp7XoSPziHqfD87pQ0tGGYBgvJUIaehB3BQ3EebnWM72zyeYRTxH0vVoY0IYhNVD0b6tCqGxQOy_nHBm4Lx9tbfo-cQK6OpmPCYAsBj9T9ncgI9uUSuykrg9i9BFZpzwtgZI_3JnyZdJFFdkF32E_uueJIhyDM2ANXcPGpteLKUefsCkgqCTKqrTqwxVhA-tdidxqs65.bnuWpf754YRFPEsolSedcw/__results___files/__results___18_0.png)
+Below is an example image. 
+
+![alt text](</Docs/Project/Images/Class_0.png>)
 
 **train.csv**
 
@@ -22,3 +24,29 @@ The data represents cassava leave images. Each leaf is either healthy or infecte
 **[train/test]\_tfrecords** - the image files in tfrecord format.
 
 **label_num_to_disease_map.json** - The mapping between each disease code and the real disease name.
+
+## The different classes and their images
+In this competition, we have 5 classes: 4 diseases and 1 healthy.
+  
+**Class 0: Cassava Bacterial Blight (CBB)**
+  * Small lesions on viens, spread to turn leaf brown, yellow ring around lesions
+    * Treatment: prune infected parts if caught early, otherwise uproot and burn
+  * ![alt text](<Images/Class_0.png>)
+
+**Class 1: Cassava Brown Streak Disease (CBSD)**
+  * Brown streaks on leaves
+    * Treatment: detected early - harvest early, otherwise remove and destroy plant
+  * ![alt text](<Images/Class_1.png>)
+
+**Class 2: Cassava Green Mottle (CGM)**
+  * Yellow dots on the leaves
+    * Treatment: uproot and destroy
+  * ![alt text](<Images/Class_2.png>)
+
+**Class 3: Cassava Mosaic Disease (CMD)**
+  * White/discoloration on leaves, smaller leaf size
+    * Treatment: uproot them, don’t replant from the infected
+  * ![alt text](<Images/Class_3.png>)
+
+**Class 4: Healthy**
+  * ![alt text](<Images/Class_4.png>)
